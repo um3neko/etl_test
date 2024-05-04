@@ -1,0 +1,6 @@
+@ETL_test_HostAddress = http://localhost:5101
+
+GET {{ETL_test_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
