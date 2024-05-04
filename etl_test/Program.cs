@@ -19,6 +19,7 @@ namespace ETL_test
                     .AllowAnyMethod();
             }));
 
+            builder.Services.AddSwaggerGen(c => c.EnableAnnotations());
             builder.Services.AddControllers();
             builder.Services.AddDbContext<ObjectModelDbContext>(opt => 
                 opt.UseSqlServer(builder.Configuration.GetConnectionString("MSSQL_CS")));
