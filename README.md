@@ -33,3 +33,5 @@ services:
 ```
 4. Run docker compose up 
 5. Start .net application
+
+(for convenience, I did not include them in gitignor)
