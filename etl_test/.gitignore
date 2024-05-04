@@ -16,6 +16,7 @@ project.lock.json
 *.sln.docstates
 
 appsettings.json
+docker-compose.yml
 
 # Build results
 [Dd]ebug/
